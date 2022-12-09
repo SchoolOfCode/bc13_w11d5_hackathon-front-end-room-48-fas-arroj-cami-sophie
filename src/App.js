@@ -45,7 +45,7 @@ function App() {
       setPost(data.payload);
     }
     getAllPosts();
-  }, []);
+  }, [url]);
 
   function createPost(text, language, weeks) {
     let i = 7;
